@@ -2,7 +2,7 @@ package com.github.kiulian.downloader.model.search.query;
 
 import java.util.List;
 
-import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson2.JSONObject;
 import com.github.kiulian.downloader.model.Utils;
 
 public class QueryRefinement extends Searchable {

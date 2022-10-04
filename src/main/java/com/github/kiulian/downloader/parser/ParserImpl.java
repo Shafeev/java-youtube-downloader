@@ -7,7 +7,7 @@ import java.util.*;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Future;
 
-import com.alibaba.fastjson.*;
+import com.alibaba.fastjson2.*;
 import com.github.kiulian.downloader.Config;
 import com.github.kiulian.downloader.YoutubeException;
 import com.github.kiulian.downloader.YoutubeException.BadPageException;
@@ -60,10 +60,7 @@ public class ParserImpl implements Parser {
     private VideoInfo parseVideo(String videoId, YoutubeCallback<VideoInfo> callback) throws YoutubeException {
         // try to spoof android
         // workaround for issue https://github.com/sealedtx/java-youtube-downloader/issues/97
-        VideoInfo videoInfo = parseVideoAndroid(videoId);
-        if (videoInfo == null) {
-            videoInfo = parseVideoWeb(videoId, callback);
-        }
+        VideoInfo videoInfo = parseVideoWeb(videoId, callback);
         if (callback != null) {
             callback.onFinished(videoInfo);
         }

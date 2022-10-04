@@ -1,6 +1,6 @@
 package com.github.kiulian.downloader.model;
 
-import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson2.JSONObject;
 
 // Video item of a list (playlist, or search result).
 public class AbstractListVideoDetails extends AbstractVideoDetails {

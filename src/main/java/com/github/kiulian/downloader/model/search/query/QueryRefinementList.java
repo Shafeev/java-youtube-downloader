@@ -2,8 +2,8 @@ package com.github.kiulian.downloader.model.search.query;
 
 import java.util.ArrayList;
 
-import com.alibaba.fastjson.JSONArray;
-import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson2.JSONArray;
+import com.alibaba.fastjson2.JSONObject;
 
 @SuppressWarnings("serial")
 public class QueryRefinementList extends ArrayList<QueryRefinement> implements QueryElement {

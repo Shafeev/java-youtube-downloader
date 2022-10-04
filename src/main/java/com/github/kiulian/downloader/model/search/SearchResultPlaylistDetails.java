@@ -2,8 +2,8 @@ package com.github.kiulian.downloader.model.search;
 
 import java.util.LinkedList;
 
-import com.alibaba.fastjson.JSONArray;
-import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson2.JSONArray;
+import com.alibaba.fastjson2.JSONObject;
 import com.github.kiulian.downloader.model.Utils;
 
 public class SearchResultPlaylistDetails extends AbstractSearchResultList {

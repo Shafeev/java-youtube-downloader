@@ -3,7 +3,7 @@ package com.github.kiulian.downloader.model;
 
 import java.util.List;
 
-import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson2.JSONObject;
 
 public abstract class AbstractVideoDetails {
 

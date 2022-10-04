@@ -4,7 +4,7 @@ package com.github.kiulian.downloader.model.videos;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson2.JSONObject;
 import com.github.kiulian.downloader.YoutubeException;
 import com.github.kiulian.downloader.model.AbstractVideoDetails;
 

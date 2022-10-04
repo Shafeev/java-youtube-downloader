@@ -3,7 +3,7 @@ package com.github.kiulian.downloader.model.videos.formats;
 
 
 
-import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson2.JSONObject;
 import com.github.kiulian.downloader.model.videos.quality.VideoQuality;
 
 public class VideoFormat extends Format {
